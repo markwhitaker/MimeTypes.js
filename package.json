@@ -1,5 +1,5 @@
 {
-  "name": "mimetypes",
+  "name": "mimetype-constants",
   "description": "MIME type constants for JavaScript developers",
   "author": "Mark Whitaker",
   "type": "module",
