@@ -1,0 +1,30 @@
+{
+  "name": "mimetypes",
+  "description": "MIME type constants for JavaScript developers",
+  "author": "Mark Whitaker",
+  "type": "module",
+  "main": "index.js",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markwhitaker/MimeTypes.JS.git"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "MIME",
+    "MIME type",
+    "MIME types",
+    "content type",
+    "content types"
+  ],
+  "scripts": {
+    "test": "qunit"
+  },
+  "bugs": {
+    "url": "https://github.com/markwhitaker/MimeTypes.JS/issues"
+  },
+  "homepage": "https://github.com/markwhitaker/MimeTypes.JS#readme",
+  "devDependencies": {
+    "qunit": "^2.19.1"
+  }
+}
