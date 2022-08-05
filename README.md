@@ -1,6 +1,6 @@
 ![icon](artwork/MimeTypes-icon-100.png)
 
-# MimeTypes.JS
+# MimeTypes.js
 [![CircleCI](https://img.shields.io/circleci/build/gh/markwhitaker/MimeTypes.js)](https://circleci.com/gh/markwhitaker/MimeTypes.JS)
 [![npm](https://img.shields.io/npm/v/mimetype-constants)](https://www.npmjs.com/package/mimetype-constants)
 [![npm](https://img.shields.io/npm/dw/mimetype-constants)](https://www.npmjs.com/package/mimetype-constants)
