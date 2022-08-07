@@ -1,5 +1,3 @@
-"use strict";
-
 const MimeTypes = Object.freeze({
     Application: (prefix => Object.freeze({
         AtomXml: prefix + "atom+xml",
