@@ -1,7 +1,7 @@
 ![icon](artwork/MimeTypes-icon-100.png)
 
 # MimeTypes.js
-[![CircleCI](https://img.shields.io/circleci/build/gh/markwhitaker/MimeTypes.js)](https://circleci.com/gh/markwhitaker/MimeTypes.JS)
+[![Build and test](https://github.com/markwhitaker/MimeTypes.js/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/markwhitaker/MimeTypes.js/actions/workflows/build-and-test.yml)
 [![npm](https://img.shields.io/npm/v/mimetype-constants)](https://www.npmjs.com/package/mimetype-constants)
 [![npm](https://img.shields.io/npm/dw/mimetype-constants)](https://www.npmjs.com/package/mimetype-constants)
 
