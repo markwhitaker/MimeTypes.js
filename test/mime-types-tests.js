@@ -112,12 +112,15 @@ assertEqual("text/xml", MimeTypes.Text.Xml);
 assertEqual("text/yaml", MimeTypes.Text.Yaml);
 
 assertEqual("video/h264", MimeTypes.Video.H264);
+assertEqual("video/mp2t", MimeTypes.Video.Mp2t);
 assertEqual("video/mp4", MimeTypes.Video.Mp4);
 assertEqual("video/mpeg", MimeTypes.Video.Mpeg);
 assertEqual("video/ogg", MimeTypes.Video.Ogg);
 assertEqual("video/quicktime", MimeTypes.Video.Quicktime);
 assertEqual("video/3gpp", MimeTypes.Video.ThreeGpp);
+assertEqual("video/3gpp2", MimeTypes.Video.ThreeGpp2);
 assertEqual("video/webm", MimeTypes.Video.Webm);
+assertEqual("video/x-msvideo", MimeTypes.Video.XMsvideo);
 
 function assertEqual(expected, actual) {
     QUnit.test("Test " + expected, (assert) => assert.equal(expected, actual));

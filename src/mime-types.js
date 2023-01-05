@@ -120,12 +120,15 @@ const MimeTypes = Object.freeze({
 
     Video: (prefix => Object.freeze({
         H264: prefix + "h264",
+        Mp2t: prefix + "mp2t",
         Mp4: prefix + "mp4",
         Mpeg: prefix + "mpeg",
         Ogg: prefix + "ogg",
         Quicktime: prefix + "quicktime",
         ThreeGpp: prefix + "3gpp",
-        Webm: prefix + "webm"
+        ThreeGpp2: prefix + "3gpp2",
+        Webm: prefix + "webm",
+        XMsvideo: prefix + "x-msvideo"
     }))("video/")
 });
 
