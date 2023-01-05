@@ -106,6 +106,7 @@ const MimeTypes = Object.freeze({
     }))("multipart/"),
 
     Text: (prefix => Object.freeze({
+        Calendar: prefix + "calendar",
         Css: prefix + "css",
         Csv: prefix + "csv",
         Html: prefix + "html",

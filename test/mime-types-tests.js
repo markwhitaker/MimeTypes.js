@@ -100,6 +100,7 @@ assertEqual("multipart/encrypted", MimeTypes.Multipart.Encrypted);
 assertEqual("multipart/form-data", MimeTypes.Multipart.FormData);
 assertEqual("multipart/related", MimeTypes.Multipart.Related);
 
+assertEqual("text/calendar", MimeTypes.Text.Calendar);
 assertEqual("text/css", MimeTypes.Text.Css);
 assertEqual("text/csv", MimeTypes.Text.Csv);
 assertEqual("text/html", MimeTypes.Text.Html);
