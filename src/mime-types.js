@@ -87,12 +87,14 @@ const MimeTypes = Object.freeze({
     }))("font/"),
 
     Image: (prefix => Object.freeze({
+        Avif: prefix + "avif",
         Bmp: prefix + "bmp",
         Gif: prefix + "gif",
         Jpeg: prefix + "jpeg",
         Png: prefix + "png",
         SvgXml: prefix + "svg+xml",
         Tiff: prefix + "tiff",
+        VndMicrosoftIcon: prefix + "vnd.microsoft.icon",
         Webp: prefix + "webp"
     }))("image/"),
 

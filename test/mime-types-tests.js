@@ -85,12 +85,14 @@ assertEqual("font/ttf", MimeTypes.Font.Ttf);
 assertEqual("font/woff", MimeTypes.Font.Woff);
 assertEqual("font/woff2", MimeTypes.Font.Woff2);
 
+assertEqual("image/avif", MimeTypes.Image.Avif);
 assertEqual("image/bmp", MimeTypes.Image.Bmp);
 assertEqual("image/gif", MimeTypes.Image.Gif);
 assertEqual("image/jpeg", MimeTypes.Image.Jpeg);
 assertEqual("image/png", MimeTypes.Image.Png);
 assertEqual("image/svg+xml", MimeTypes.Image.SvgXml);
 assertEqual("image/tiff", MimeTypes.Image.Tiff);
+assertEqual("image/vnd.microsoft.icon", MimeTypes.Image.VndMicrosoftIcon);
 assertEqual("image/webp", MimeTypes.Image.Webp);
 
 assertEqual("multipart/byteranges", MimeTypes.Multipart.Byteranges);
