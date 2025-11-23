@@ -2,8 +2,7 @@
 
 import {MimeTypes} from "../index.js";
 
-QUnit.module("MimeTypes");
-
+QUnit.module("MimeTypes.Application");
 assertEqual("application/atom+xml", MimeTypes.Application.AtomXml);
 assertEqual("application/atomcat+xml", MimeTypes.Application.AtomcatXml);
 assertEqual("application/ecmascript", MimeTypes.Application.Ecmascript);
@@ -62,6 +61,7 @@ assertEqual("application/x-tar", MimeTypes.Application.XTar);
 assertEqual("application/x-www-form-urlencoded", MimeTypes.Application.XWwwFormUrlencoded);
 assertEqual("application/zip", MimeTypes.Application.Zip);
 
+QUnit.module("MimeTypes.Audio");
 assertEqual("audio/midi", MimeTypes.Audio.Midi);
 assertEqual("audio/mp4", MimeTypes.Audio.Mp4);
 assertEqual("audio/mpeg", MimeTypes.Audio.Mpeg);
@@ -78,6 +78,7 @@ assertEqual("audio/x-mpegurl", MimeTypes.Audio.XMpegurl);
 assertEqual("audio/x-ms-wma", MimeTypes.Audio.XMsWma);
 assertEqual("audio/x-wav", MimeTypes.Audio.XWav);
 
+QUnit.module("MimeTypes.Font");
 assertEqual("font/collection", MimeTypes.Font.Collection);
 assertEqual("font/otf", MimeTypes.Font.Otf);
 assertEqual("font/sfnt", MimeTypes.Font.Sfnt);
@@ -85,6 +86,7 @@ assertEqual("font/ttf", MimeTypes.Font.Ttf);
 assertEqual("font/woff", MimeTypes.Font.Woff);
 assertEqual("font/woff2", MimeTypes.Font.Woff2);
 
+QUnit.module("MimeTypes.Image");
 assertEqual("image/avif", MimeTypes.Image.Avif);
 assertEqual("image/bmp", MimeTypes.Image.Bmp);
 assertEqual("image/gif", MimeTypes.Image.Gif);
@@ -95,11 +97,13 @@ assertEqual("image/tiff", MimeTypes.Image.Tiff);
 assertEqual("image/vnd.microsoft.icon", MimeTypes.Image.VndMicrosoftIcon);
 assertEqual("image/webp", MimeTypes.Image.Webp);
 
+QUnit.module("MimeTypes.Multipart");
 assertEqual("multipart/byteranges", MimeTypes.Multipart.Byteranges);
 assertEqual("multipart/encrypted", MimeTypes.Multipart.Encrypted);
 assertEqual("multipart/form-data", MimeTypes.Multipart.FormData);
 assertEqual("multipart/related", MimeTypes.Multipart.Related);
 
+QUnit.module("MimeTypes.Text");
 assertEqual("text/calendar", MimeTypes.Text.Calendar);
 assertEqual("text/css", MimeTypes.Text.Css);
 assertEqual("text/csv", MimeTypes.Text.Csv);
@@ -111,6 +115,7 @@ assertEqual("text/sgml", MimeTypes.Text.Sgml);
 assertEqual("text/xml", MimeTypes.Text.Xml);
 assertEqual("text/yaml", MimeTypes.Text.Yaml);
 
+QUnit.module("MimeTypes.Video");
 assertEqual("video/h264", MimeTypes.Video.H264);
 assertEqual("video/mp2t", MimeTypes.Video.Mp2t);
 assertEqual("video/mp4", MimeTypes.Video.Mp4);
@@ -123,5 +128,5 @@ assertEqual("video/webm", MimeTypes.Video.Webm);
 assertEqual("video/x-msvideo", MimeTypes.Video.XMsvideo);
 
 function assertEqual(expected, actual) {
-    QUnit.test("Test " + expected, (assert) => assert.equal(expected, actual));
+    QUnit.test(expected, (assert) => assert.equal(expected, actual));
 }
