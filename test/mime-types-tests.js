@@ -1,5 +1,6 @@
 "use strict";
 
+import QUnit from "qunit";
 import {MimeTypes} from "../index.js";
 
 QUnit.module("MimeTypes.Application");
