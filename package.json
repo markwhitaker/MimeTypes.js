@@ -18,13 +18,10 @@
     "content types"
   ],
   "scripts": {
-    "test": "qunit"
+    "test": "bun test"
   },
   "bugs": {
     "url": "https://github.com/markwhitaker/MimeTypes.JS/issues"
   },
-  "homepage": "https://github.com/markwhitaker/MimeTypes.JS#readme",
-  "devDependencies": {
-    "qunit": "^2.19.1"
-  }
+  "homepage": "https://github.com/markwhitaker/MimeTypes.JS#readme"
 }
