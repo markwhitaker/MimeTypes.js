@@ -9,4 +9,4 @@ permissions:
 jobs:
   publish-to-nuget:
     name: Publish release to npm
-    uses: markwhitaker/shared-workflows/.github/workflows/bun-publish-to-npm.yml@main
+    uses: markwhitaker/shared-workflows/.github/workflows/node-publish-to-npm.yml@main
