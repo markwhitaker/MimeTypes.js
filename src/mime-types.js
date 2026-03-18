@@ -90,7 +90,10 @@ const MimeTypes = Object.freeze({
         Avif: prefix + "avif",
         Bmp: prefix + "bmp",
         Gif: prefix + "gif",
+        Jp2: prefix + "jp2",
         Jpeg: prefix + "jpeg",
+        Jpm: prefix + "jpm",
+        Jpx: prefix + "jpx",
         Png: prefix + "png",
         SvgXml: prefix + "svg+xml",
         Tiff: prefix + "tiff",
@@ -120,6 +123,7 @@ const MimeTypes = Object.freeze({
 
     Video: (prefix => Object.freeze({
         H264: prefix + "h264",
+        Mj2: prefix + "mj2",
         Mp2t: prefix + "mp2t",
         Mp4: prefix + "mp4",
         Mpeg: prefix + "mpeg",
